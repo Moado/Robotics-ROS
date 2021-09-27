@@ -53,6 +53,8 @@ rostopic echo /cmd_vel
 
 Fresh start of the terminals and execution of : "rosbag play name.bag" to simulate the recorded scenario.
 
+----------------------------------------------------------------------------------------
+
 Credit: 
 
 1- https://github.com/Tanguyvans/bebop_code 
