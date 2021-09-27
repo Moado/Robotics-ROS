@@ -6,54 +6,64 @@ I used the first version of the code you gave us last year because in the recent
 
 The order of the commands is as follows:
 
----------------------------------------------------------------------------------------
 cd $ARS_CATKIN_WORKSPACE
 catkin_make
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 roscore
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 roslaunch ars_sim_robot ars_sim_robot.launch
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 roslaunch ars_robot_models robot_urdf.launch               
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 rosrun rviz rviz -d $(rospack find ars_config)/config/rviz_config/rviz_conf_sim.rviz
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 roslaunch ars_launchers robot_trajectory.launch
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 rosrun ars_remote_controller /ars_control.py
----------------------------------------------------------------------------------------
+
+
 rosbag record -a
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[0.5, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
 rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'
 rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[0.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
----------------------------------------------------------------------------------------
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 rqt_plot /robot_pose/pose/position/x:y:z 
-----------------------------------------------------------------------------------------
+
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 rosrun ars_remote_controller /graphical_interface.py
-----------------------------------------------------------------------------------------
+
+
+
 rostopic echo /cmd_vel
 
 Fresh start of the terminals and execution of : "rosbag play name.bag" to simulate the recorded scenario.
 
-----------------------------------------------------------------------------------------
 
 Credit: 
 
