@@ -9,7 +9,7 @@ I used the first version of the code you gave us last year because in the recent
   font-size: 70;
 }
 
-![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework1/images/IK3.PNG?raw=true)
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework1/images/ars_3.PNG?raw=true)
 
 
 The order of the commands is as follows:
