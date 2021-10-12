@@ -3,12 +3,12 @@
 This version of the code is the one I will use in all the rest of the project. It is an improved version of the remote controller, which includes in addition to the graphical interface, 3 other scripts:
 
 twistStampedtotwist.py which allows me to visualize the linear and angular change and the steering of the robot, directly on the terminal. 
-![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework1/images/ars.gif?raw=true)
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/ars.gif?raw=true)
 
 go_in_circle.sh which is a bash script that allows the robot to turn infinitely in a circle (we can however add the "r" tag for recursivity).
 ![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework1/images/cercle.PNG?raw=true)
 stop_robot.sh which allows the robot to stop instantly when it goes out of its trajectory. 
-![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework1/images/stop.PNG?raw=true)
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/stop.PNG?raw=true)
 
 
 @settings {
