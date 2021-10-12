@@ -6,7 +6,7 @@ twistStampedtotwist.py which allows me to visualize the linear and angular chang
 ![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/ars.gif?raw=true)
 
 go_in_circle.sh which is a bash script that allows the robot to turn infinitely in a circle (we can however add the "r" tag for recursivity).
-![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework1/images/cercle.PNG?raw=true)
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/cercle.PNG?raw=true)
 stop_robot.sh which allows the robot to stop instantly when it goes out of its trajectory. 
 ![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/stop.PNG?raw=true)
 
