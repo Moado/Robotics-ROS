@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>ars_remote_controller</name>
+  <version>1.0.0</version>
+  <description>blabla</description>
+
+  <maintainer email="moad11320347@gmail.com"></maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">www.moad.hani.com</url>
+
+  <author>Moad_HANI</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>

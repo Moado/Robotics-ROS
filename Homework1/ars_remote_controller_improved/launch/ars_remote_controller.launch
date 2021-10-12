@@ -1,0 +1,24 @@
+<!-- -->
+<launch>
+
+  
+  <arg name="robot_cmd_ctr_stamped" default="/robot_cmd_ctr_stamped" />
+
+
+  <group ns="remote_controller">
+
+    <!--
+    <node name="ars_remote_controller_node" pkg="ars_remote_controller" type="graphical_interface.py" output="screen" >
+      <remap from="robot_cmd_ctr_stamped" to="$(arg robot_cmd_ctr_stamped)"/>
+
+    </node>
+    -->
+    
+    <node name="ars_remote_controller_node" pkg="ars_remote_controller" type="graphical_interface.py" output="screen" >
+      <remap from="robot_cmd_ctr_stamped" to="$(arg robot_cmd_ctr_stamped)"/>
+
+    </node>
+    
+  </group>
+
+</launch>
