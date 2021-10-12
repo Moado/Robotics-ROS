@@ -81,10 +81,10 @@ Fresh start of the terminals and execution of : "rosbag play name.bag" to simula
 
 Credit: 
 
-[1]: https://github.com/Tanguyvans/bebop_code "Original source code"
+[1] https://github.com/Tanguyvans/bebop_code "Original source code"
 
-[2]: https://sceweb.sce.uhcl.edu/harman/CENG_all/TurtleBotGuide2_19_2016a.pdf "Turtle Bot Guide"
+[2] https://sceweb.sce.uhcl.edu/harman/CENG_all/TurtleBotGuide2_19_2016a.pdf "Turtle Bot Guide"
 
-[3]: https://www.youtube.com/watch?v=eJ4QPrYqMlw "Youtube video"
+[3] https://www.youtube.com/watch?v=eJ4QPrYqMlw "Youtube video"
 
-[4]: https://femexrobotica.org/eir2015/wp-content/uploads/2015/01/Navegaci%C3%B3nDeRobotsM%C3%B3viles.pdf "Lecture notes"
+[4] https://femexrobotica.org/eir2015/wp-content/uploads/2015/01/Navegaci%C3%B3nDeRobotsM%C3%B3viles.pdf "Lecture notes"
