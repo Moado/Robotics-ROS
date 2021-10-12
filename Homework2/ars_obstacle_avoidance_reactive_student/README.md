@@ -48,21 +48,7 @@ roslaunch ars_launchers robot_obstacle_avoidance_react.launch
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 
-rostopic pub -1 /robot_cmd_ctr_stamped geometry_msgs/TwistStamped "header:
-  seq: 0
-  stamp:
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-twist:
-  linear:
-    x: 2.0
-    y: 0.0
-    z: 0.0
-  angular:
-    x: 0.0
-    y: 0.0
-    z: 1.8" 
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/cercle.PNG?raw=true)
 
 
 
@@ -70,18 +56,4 @@ twist:
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
 
-rostopic pub -1 /robot_cmd_ctr_stamped geometry_msgs/TwistStamped "header:
-  seq: 0
-  stamp:
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-twist:
-  linear:
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  angular:
-    x: 0.0
-    y: 0.0
-    z: 0.0" 
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/stop.PNG?raw=true)
