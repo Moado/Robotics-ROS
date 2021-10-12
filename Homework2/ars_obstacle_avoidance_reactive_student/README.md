@@ -4,7 +4,10 @@
   font-size: 70;
 }
 
-![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework2/images/A4.PNG?raw=true)
+
+https://user-images.githubusercontent.com/23427415/136907775-add1500c-5c30-4d49-bc73-7920c73f9cfc.mp4
+
+
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash <br />
 rospack profile <br />
 roscore 
