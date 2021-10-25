@@ -1,5 +1,22 @@
 # ars_msf_state_estimator
 
+@settings {
+  font-size: 70;
+}
+
+
+https://user-images.githubusercontent.com/23427415/138777439-ace22039-9101-4452-be70-d44960a0d967.mp4
+
+
+[Before Tuning]
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework3/images/state-estimator-before-tuning.PNG?raw=true)
+
+
+[After Tuning]
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework3/images/state-estimator-after-tuning.PNG?raw=true)
+
+
+Commands:
 
 cd $ARS_CATKIN_WORKSPACE
 
