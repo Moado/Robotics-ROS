@@ -105,6 +105,7 @@ class ArsMotionControllerRos:
     # signal.signal(signal.SIGINT, self.cleanup)
     
     # Package path
+    # fixed
     pkg_path = rospkg.RosPack().get_path('ars_motion_controller_pid')
     
 
