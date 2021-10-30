@@ -117,7 +117,7 @@ def moveZ(speed, distance, is_forward):
 
     distance_moved = 0.0
     #loop_rate = rospy.Rate(10) # we publish the velocity at 10 Hz (10 times a second)    
-
+#small changes
     while True :
             rospy.loginfo("Drone goes UP")
             velocity_publisher.publish(velocity_message)

@@ -78,7 +78,7 @@ def moveX(speed, distance, is_forward):
     velocity_publisher.publish(velocity_message)
     
 def moveY(speed, distance, is_forward):
-        
+        #publish velocity message
     velocity_publisher = rospy.Publisher("robot_cmd_ctr_stamped", TwistStamped, queue_size=1)
     velocity_message = TwistStamped()
 
