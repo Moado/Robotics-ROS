@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ars_remote_controller_test</name>
+  <version>0.0.1</version>
+  <description>The ars_remote_controller</description>
+
+  <maintainer email="joseluis.sanlop@gmail.com">Jose Luis SANCHEZ-LOPEZ</maintainer>
+  <author email="joseluis.sanlop@gmail.com">Jose Luis SANCHEZ-LOPEZ</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
