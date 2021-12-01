@@ -1,0 +1,14 @@
+<!-- -->
+<launch>
+
+	<arg name="ars_obstacle_avoidance_react_node_name" 	default="ars_obstacle_avoidance_react_node" />
+	<arg name="screen" 	default="screen" />
+
+
+  <node name="$(arg ars_obstacle_avoidance_react_node_name)" pkg="ars_obstacle_avoidance_react" type="ars_obstacle_avoidance_react_ros_node.py" output="$(arg screen)" >
+
+
+  </node>
+
+
+</launch>
