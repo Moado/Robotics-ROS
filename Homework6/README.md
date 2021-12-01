@@ -1,5 +1,21 @@
 # ars_path_planner
 
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework6_/images/pp_1.PNG?raw=true)
+
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework6_/images/pp_2.PNG?raw=true)
+
+![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework6_/images/pp_3.PNG?raw=true)
+
+
+#example (7 5) ; (1 7) ; (0 0) ; (6.5 5.5)
+
+https://user-images.githubusercontent.com/23427415/144331085-4b6e191b-3755-42e3-a9bf-d465fa915640.mp4
+
+#example (7 5) ; (1 7) ; (0 0) ; (6.5 5.5), but this time I changed the gain avoidance and distance of influence to 3 and 2 respectively. (Same values as in the obstacle reactive avoidance)
+
+
+
+
 cd $ARS_CATKIN_WORKSPACE
 source $ARS_CATKIN_WORKSPACE/devel/setup.bash
 rospack profile
