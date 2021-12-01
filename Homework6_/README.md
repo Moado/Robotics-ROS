@@ -7,9 +7,13 @@
 ![alt text](https://github.com/Moado/Robotics-ROS/blob/main/Homework6_/images/pp_3.PNG?raw=true)
 
 
-![path_planner1](https://user-images.githubusercontent.com/23427415/144330522-e6e2e600-c621-4edf-8c20-4e830e3edb0d.PNG)
-![path_planner2](https://user-images.githubusercontent.com/23427415/144330531-4974395e-b36f-44b4-8c18-758f793b79aa.PNG)
-![path_planner3](https://user-images.githubusercontent.com/23427415/144330532-17853809-2828-4c9e-9d49-b528c359dbc4.PNG)
+#example (7 5) ; (1 7) ; (0 0) ; (6.5 5.5)
+
+https://user-images.githubusercontent.com/23427415/144331085-4b6e191b-3755-42e3-a9bf-d465fa915640.mp4
+
+#example (7 5) ; (1 7) ; (0 0) ; (6.5 5.5), but this time I changed the gain avoidance and distance of influence to 3 and 2 respectively. (Same values as in the obstacle reactive avoidance)
+
+
 
 
 cd $ARS_CATKIN_WORKSPACE
